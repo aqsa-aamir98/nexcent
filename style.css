@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul li {
+  list-style: none;
+}
+/* Header section */
+.header {
+  background-color: #f5f7fa;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-img {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo-img h3 {
+  color: 263238;
+  font-size: 30px;
+}
+.orderList {
+  display: flex;
+  gap: 40px;
+}
+.orderList li a {
+  color: black;
+  font-weight: 400;
+}
+.header-btns {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.login {
+  color: #4caf4f;
+  background-color: transparent;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 6px;
+}
+.login:hover {
+  background-color: #4caf4f;
+  color: white;
+}
+.sign-up {
+  color: white;
+  background-color: #4caf4f;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 6px;
+}
+.sign-up:hover {
+  background-color: transparent;
+  border: 1px solid #4caf4f;
+  color: #4caf4f;
+}
+
+/* Hero section */
+.hero-section {
+  background-color: #f5f7fa;
+}
+.hero-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.lessons-heading {
+  font-size: 64px;
+}
+.lessons {
+  color: #4d4d4d;
+}
+.years {
+  color: #4caf4f;
+}
