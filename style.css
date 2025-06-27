@@ -195,8 +195,8 @@ ul li {
   align-items: end;
   gap: 40px;
 }
-.desgin-box {
-  width: 50%;
+.desgin-box p {
+  width: 45%;
 }
 .feature-1 {
   display: flex;
@@ -228,12 +228,14 @@ ul li {
   border-radius: 4px;
   gap: 100px;
 }
+.business-bg {
+  background-color: #f5f7fa;
+}
 .business {
   display: flex;
   align-items: center;
   justify-content: space-around;
   height: 270px;
-  background-color: #f5f7fa;
 }
 .business-text h1 {
   width: 450px;
@@ -306,33 +308,49 @@ ul li {
 .learn-2 {
   background-color: #4caf4f;
   border-radius: 4px;
-  padding-left: 20px;
-  padding-right: 20px;
   padding-top: 7px;
   padding-bottom: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
   border: none;
   cursor: pointer;
   color: white;
+  margin-bottom: 8%;
 }
 .learn-2:hover {
-  background-color: #4caf4f;
-  color: white;
+  background-color: white;
+  color: #4caf4f;
 }
 .justo {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 200px;
 }
 .justo p {
   font-size: 10px;
   color: #717171;
 }
+.justo div:last-child {
+  width: 27%;
+}
+.caring-market {
+  width: 50%;
+  margin: 0 auto;
+}
+.caring-market h3 {
+  text-align: center;
+}
+.caring-market p {
+  text-align: center;
+}
 .timy {
   display: flex;
   align-items: center;
 }
-.timy h2 {
+.timy h3 {
   color: #4caf4f;
+  gap: 20px;
 }
 .timy h5 {
   color: #4caf4f;
@@ -340,6 +358,7 @@ ul li {
 .Racing-img {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 .Caring-1 {
   display: flex;
@@ -356,8 +375,11 @@ ul li {
 }
 .Caring-1 p h3 {
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: 50%;
   line-height: 1.5rem;
+}
+.demo h1 {
+  text-align: center;
 }
 /* .footer h2 {
   display: flex;
@@ -377,3 +399,19 @@ ul li {
   margin-bottom: 200px;
   margin-left: 600px;
 } */
+.position-img {
+  position: relative;
+}
+.creating-box {
+  position: absolute;
+  top: 80%;
+  width: 20%;
+  left: 3%;
+  background: white;
+}
+.creating-box p {
+  font-size: 10px;
+}
+.learn-2 {
+  gap: 10px;
+}
