@@ -6,10 +6,14 @@
   font-family: "Inter", sans-serif;
   font-style: normal;
 }
+.header img h3 {
+  display: flex;
+}
 a {
   text-decoration: none;
+  color: black;
 }
-.container {
+.our-client container {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
@@ -18,75 +22,14 @@ a {
 }
 ul li {
   list-style: none;
+  display: inline;
+  padding: 10px 10px;
+  margin: 20px 20px;
 }
-/* Header section */
-.header {
-  background-color: #f5f7fa;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.header-container {
+.main-cards {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
-.logo-img {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.logo-img h3 {
-  color: 263238;
-  font-size: 30px;
-}
-.orderList {
-  display: flex;
-  gap: 40px;
-}
-.orderList li a {
-  color: black;
-  font-weight: 400;
-}
-.header-btns {
-  display: flex;
-  align-items: center;
-  gap: 9px;
-}
-.login {
-  color: #4caf4f;
-  background-color: transparent;
-  padding-top: 9px;
-  padding-bottom: 9px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border: none;
-  cursor: pointer;
-  font-weight: 500;
-  border-radius: 6px;
-}
-.login:hover {
-  background-color: #4caf4f;
-  color: white;
-}
-.sign-up {
-  color: white;
-  background-color: #4caf4f;
-  padding-top: 9px;
-  padding-bottom: 9px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border: none;
-  cursor: pointer;
-  font-weight: 500;
-  border-radius: 6px;
-}
-.sign-up:hover {
-  background-color: transparent;
-  border: 1px solid #4caf4f;
-  color: #4caf4f;
-}
-
-/* Hero section */
+/*  */
 .hero-section {
   background-color: #f5f7fa;
 }
@@ -102,13 +45,16 @@ ul li {
 }
 .lessons {
   color: #4d4d4d;
+  padding: 140px;
 }
 .years {
   color: #4caf4f;
+  padding: 140px;
 }
 .parah1 {
   font-size: 14px;
   color: #717171;
+  padding: 12px 140px;
 }
 .register-btn {
   color: white;
@@ -119,8 +65,11 @@ ul li {
   padding-right: 20px;
   margin-top: 15px;
   border: none;
-  border-radius: 4px;
+  border-radius: 6px;
   cursor: pointer;
+}
+.hero img {
+  padding-left: 100%;
 }
 
 /* Our clients */
@@ -134,18 +83,21 @@ ul li {
   font-size: 36px;
   color: #4d4d4d;
   margin-bottom: 15px;
+  width: 20px;
 }
 .our-client p {
   color: #717171;
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 20px;
+  width: 7px;
 }
 .our-client div {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 50px;
+  justify-content: space-evenly;
 }
 .our-client div img {
   background-color: red;
@@ -165,7 +117,7 @@ ul li {
 }
 .members-img {
   display: flex;
-  padding-top: 20px;
+  padding-top: 20p;
 }
 .parah-4 {
   display: flex;
@@ -179,6 +131,8 @@ ul li {
 }
 .payments {
   width: 200px;
+  display: flex;
+  padding-top: 20px;
 }
 .Clubs {
   width: 200px;
@@ -193,11 +147,12 @@ ul li {
   display: flex;
   justify-content: center;
   align-items: end;
-  gap: 40px;
+  gap: 2px;
 }
 .desgin-box p {
-  width: 45%;
+  display: flex;
 }
+
 .feature-1 {
   display: flex;
   justify-content: space-evenly;
@@ -293,17 +248,16 @@ ul li {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: solid blue;
+  gap: 25%;
 }
 .footer h2 {
   color: #4d4d4d;
-  font-size: 20px;
-  padding-bottom: 50px;
+  font-size: 30px;
+  padding-bottom: 10px;
 }
 .footer p {
   color: #717171;
   font-size: 10px;
-  padding-bottom: 50px;
 }
 .learn-2 {
   background-color: #4caf4f;
@@ -355,6 +309,10 @@ ul li {
 .timy h5 {
   color: #4caf4f;
 }
+.container {
+  display: flex;
+  gap: 4%;
+}
 .Racing-img {
   display: flex;
   align-items: center;
@@ -381,37 +339,77 @@ ul li {
 .demo h1 {
   text-align: center;
 }
-/* .footer h2 {
-  display: flex;
-  color: #4d4d4d;
-  justify-cotent: center;
-  font-size: 30px;
-  margin-bottom: 2500px;
-  margin-top: 5px;
-}
 .footer p {
   display: flex;
-  width: 200px;
+  width: 45%;
   font-size: 10px;
   align-items: center;
   color: #717171;
-  margin: 50px;
-  margin-bottom: 200px;
-  margin-left: 600px;
-} */
-.position-img {
-  position: relative;
+  margin: 7px;
+  margin-bottom: 10px;
+  margin-left: 0%;
 }
+
 .creating-box {
   position: absolute;
-  top: 80%;
+  bottom: 80%;
   width: 20%;
   left: 3%;
   background: white;
 }
-.creating-box p {
+.img {
+  display: flex;
+  gap: 2%;
+  margin-left: 10%;
+}
+.img h6 {
+  color: #4caf4f;
+  background-color: white;
+}
+.creating {
+  position: relative;
+}
+.Readmore {
+  font-size: 10px;
+  background-color: white;
+}
+
+.Readmore {
+  position: absolute;
+  top: 70%;
+  padding-left: 23%;
+  padding-bottom: 2%;
+  padding-top: 5%;
+  width: 60%;
+}
+.container-2 {
+  position: absolute;
+  top: 1%;
+  padding-left: 50%;
+  padding-bottom: 2%;
+  padding-top: 186%;
+}
+.OneRen p {
+  position: absolute;
+  padding-left: 47%;
+  width: 85%;
   font-size: 10px;
 }
-.learn-2 {
-  gap: 10px;
+.OneRen {
+  background-color: white;
+}
+.OneRen h6 {
+  color: #4caf4f;
+}
+.header-container {
+  display: flex;
+}
+.Modal {
+  font-size: 10px;
+  background-color: white;
+  top: 70%;
+  padding-left: 40%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  width: 80%;
 }
