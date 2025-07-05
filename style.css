@@ -6,14 +6,12 @@
   font-family: "Inter", sans-serif;
   font-style: normal;
 }
-.header img h3 {
-  display: flex;
-}
 a {
   text-decoration: none;
   color: black;
 }
-.our-client container {
+
+.container {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
@@ -22,14 +20,26 @@ a {
 }
 ul li {
   list-style: none;
-  display: inline;
-  padding: 10px 10px;
-  margin: 20px 20px;
 }
-.main-cards {
+a {
+  text-decoration: none;
+}
+.logo {
   display: flex;
+  gap: 5px;
+  align-items: center;
 }
-/*  */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.orderList {
+  display: flex;
+  gap: 30px;
+}
+
 .hero-section {
   background-color: #f5f7fa;
 }
@@ -45,16 +55,14 @@ ul li {
 }
 .lessons {
   color: #4d4d4d;
-  padding: 140px;
 }
 .years {
   color: #4caf4f;
-  padding: 140px;
 }
 .parah1 {
   font-size: 14px;
   color: #717171;
-  padding: 12px 140px;
+  padding-top: 20px;
 }
 .register-btn {
   color: white;
@@ -68,40 +76,38 @@ ul li {
   border-radius: 6px;
   cursor: pointer;
 }
-.hero img {
-  padding-left: 100%;
-}
 
 /* Our clients */
 
 .our-client {
   text-align: center;
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 85px;
 }
 .our-client h2 {
   font-size: 36px;
   color: #4d4d4d;
   margin-bottom: 15px;
-  width: 20px;
 }
 .our-client p {
   color: #717171;
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 20px;
-  width: 7px;
 }
-.our-client div {
+.main-cards {
+  display: flex;
+}
+.client-images {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 50px;
-  justify-content: space-evenly;
 }
-.our-client div img {
-  background-color: red;
+.client-images img {
   width: 70px;
+  height: 59px;
+  background-color: rgb(253, 215, 215);
 }
 .menu-btn i {
   font-size: 30px;
@@ -147,7 +153,7 @@ ul li {
   display: flex;
   justify-content: center;
   align-items: end;
-  gap: 2px;
+  gap: 70px;
 }
 .desgin-box p {
   display: flex;
@@ -248,7 +254,7 @@ ul li {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 25%;
+  gap: 200px;
 }
 .footer h2 {
   color: #4d4d4d;
@@ -278,16 +284,13 @@ ul li {
 .justo {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 200px;
+  gap: 285px;
 }
 .justo p {
   font-size: 10px;
   color: #717171;
 }
-.justo div:last-child {
-  width: 27%;
-}
+
 .caring-market {
   width: 50%;
   margin: 0 auto;
@@ -309,10 +312,7 @@ ul li {
 .timy h5 {
   color: #4caf4f;
 }
-.container {
-  display: flex;
-  gap: 4%;
-}
+
 .Racing-img {
   display: flex;
   align-items: center;
@@ -336,7 +336,7 @@ ul li {
   margin-bottom: 50%;
   line-height: 1.5rem;
 }
-.demo h1 {
+.demo {
   text-align: center;
 }
 .footer p {
@@ -366,28 +366,24 @@ ul li {
   color: #4caf4f;
   background-color: white;
 }
+.container-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
+  margin-top: 40px;
+}
 .creating {
   position: relative;
 }
 .Readmore {
-  font-size: 10px;
   background-color: white;
 }
 
 .Readmore {
   position: absolute;
-  top: 70%;
-  padding-left: 23%;
-  padding-bottom: 2%;
-  padding-top: 5%;
+  top: 84%;
   width: 60%;
-}
-.container-2 {
-  position: absolute;
-  top: 1%;
-  padding-left: 50%;
-  padding-bottom: 2%;
-  padding-top: 186%;
+  left: 22%;
 }
 .OneRen p {
   position: absolute;
@@ -412,4 +408,56 @@ ul li {
   padding-bottom: 5%;
   padding-top: 5%;
   width: 80%;
+}
+.customer-images {
+  display: flex;
+  padding-top: 20px;
+  gap: 20px;
+  align-items: center;
+}
+.customer-images div {
+  color: #4caf4f;
+  display: flex;
+  align-items: center;
+}
+.customer-images div img {
+  padding-left: 10px;
+}
+.customer-description {
+  width: 46%;
+}
+.footer-bg {
+  background-color: #263238;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+}
+.search-input {
+  margin-top: 20px;
+  background-color: #717171;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  width: 126%;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 9px;
+}
+.search-input input {
+  background-color: transparent;
+  border: none;
+  color: white;
+  width: 90%;
+  height: -webkit-fill-available;
+}
+.search-input input:focus {
+  outline: none;
+}
+.search-input input::placeholder {
+  color: white;
 }
