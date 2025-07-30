@@ -6,11 +6,13 @@
   font-family: "Inter", sans-serif;
   font-style: normal;
 }
+html {
+  scroll-behavior: smooth;
+}
 a {
   text-decoration: none;
   color: black;
 }
-
 .container {
   max-width: 1440px;
   margin-left: auto;
@@ -24,6 +26,46 @@ ul li {
 a {
   text-decoration: none;
 }
+ul li :hover {
+  background-color: #4caf4f;
+  color: white;
+  border-radius: 15px;
+}
+
+.login {
+  color: white;
+  background-color: #4caf4f;
+  border-radius: 15px;
+  cursor: pointer;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  border-style: none;
+  cursor: pointer;
+}
+.sign-up {
+  color: white;
+  background-color: #4caf4f;
+  border-radius: 15px;
+  cursor: pointer;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.login:hover {
+  background-color: white;
+  color: #4caf4f;
+}
+.sign-up:hover {
+  background-color: white;
+  color: #4caf4f;
+}
+
 .logo {
   display: flex;
   gap: 5px;
@@ -73,8 +115,12 @@ a {
   padding-right: 20px;
   margin-top: 15px;
   border: none;
-  border-radius: 6px;
+  border-radius: 15px;
   cursor: pointer;
+}
+.register-btn:hover {
+  background-color: white;
+  color: #4caf4f;
 }
 
 /* Our clients */
@@ -339,6 +385,24 @@ a {
 .demo {
   text-align: center;
 }
+.demo h1 {
+  font: 30px;
+  color: #4d4d4d;
+  font-size: 38px;
+  padding-bottom: 38px;
+}
+.demo button {
+  color: white;
+  background: #4caf4f;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+}
 .footer p {
   display: flex;
   width: 45%;
@@ -359,7 +423,7 @@ a {
 }
 .img {
   display: flex;
-  gap: 2%;
+  gap: 2px;
   margin-left: 10%;
 }
 .img h6 {
@@ -368,33 +432,53 @@ a {
 }
 .container-1 {
   display: flex;
-  justify-content: space-between;
+  gap: 21px;
+  margin-right: 5px;
   margin-bottom: 90px;
   margin-top: 40px;
 }
 .creating {
   position: relative;
 }
-.Readmore {
+.Streamlined {
   background-color: white;
 }
 
-.Readmore {
+.Streamlined {
   position: absolute;
-  top: 84%;
+  top: 80%;
   width: 60%;
   left: 22%;
+  font-size: 12px;
 }
-.OneRen p {
+.Streamlined h6 {
+  color: #4caf4f;
+}
+.OneRen {
   position: absolute;
-  padding-left: 47%;
-  width: 85%;
-  font-size: 10px;
+  top: 75%;
+  width: 60%;
+  left: 22%;
+  font-size: 12px;
 }
 .OneRen {
   background-color: white;
 }
 .OneRen h6 {
+  color: #4caf4f;
+}
+.Revamping {
+  position: absolute;
+  top: 80%;
+  width: 60%;
+  left: 22%;
+  font-size: 12px;
+  padding-right: 10px;
+}
+.Revamping {
+  background-color: white;
+}
+.Revamping h6 {
   color: #4caf4f;
 }
 .header-container {
@@ -426,6 +510,22 @@ a {
 .customer-description {
   width: 46%;
 }
+.latest-1 {
+  color: #4d4d4d;
+}
+.latest-1 h2 {
+  align-items: center;
+  margin-bottom: 3px;
+  margin-left: 500px;
+}
+.latest-1 p {
+  align-items: center;
+  margin-left: 380px;
+}
+.Nexcent {
+  justify-content: space-between;
+}
+
 .footer-bg {
   background-color: #263238;
   color: white;
@@ -436,13 +536,16 @@ a {
   display: flex;
   justify-content: space-between;
 }
+.footer-box img h4 {
+  display: flex;
+}
 .search-input {
   margin-top: 20px;
   background-color: #717171;
   height: 40px;
   display: flex;
   align-items: center;
-  width: 126%;
+  width: 120%;
   justify-content: space-between;
   padding-left: 15px;
   padding-right: 15px;
@@ -460,4 +563,7 @@ a {
 }
 .search-input input::placeholder {
   color: white;
+}
+@media screen .header {grid-row: :end 3;
+  
 }
